@@ -19,4 +19,11 @@ map("n", "<leader>e", ":Neotree toggle<CR>", { desc = "Toggle Neo-tree" })      
 -- Telescope
 map("n", "<leader>ff", "<cmd>Telescope find_files<CR>", { desc = "Find Files" })        -- Find files
 map("n", "<leader>fg", "<cmd>Telescope live_grep<CR>", { desc = "Live Grep" })          -- Live grep (requires ripgrep)
+map("n", "<leader>fd", function()                                                       -- Find Directories
+    require("telescope.builtin").find_files({
+      find_command = { "fd", "--type", "d", "--hidden", "--strip-cwd-prefix" },
+      prompt_title = "Find Directories",
+    })
+  end, { desc = "Find Directories" })
+  
 
