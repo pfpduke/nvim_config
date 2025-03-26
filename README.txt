@@ -1,1 +1,1 @@
-git config --global core.autocrlf   # Keep LF, even on Windows (good for cross-platform)
+git config --global core.autocrlf true   # Keep LF, even on Windows (good for cross-platform)
