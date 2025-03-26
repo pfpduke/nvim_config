@@ -2,7 +2,6 @@
 
 $tools = @{
     "Neovim"             = "Neovim.Neovim"
-    "Git"                = "Git.Git"
     "ripgrep"            = "BurntSushi.ripgrep.GNU"
     "fd"                 = "sharkdp.fd"
     "Nerd Font"          = "DEVCOM.JetBrainsMonoNerdFont"
