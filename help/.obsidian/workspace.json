@@ -183,8 +183,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c2f7f1034bfb72b4",
+  "active": "07404f0147b63b0f",
   "lastOpenFiles": [
+    "nvim_setup.ps1",
+    "install.ps1",
     "Neo-tree.md",
     "Telescope.md"
   ]
