@@ -12,6 +12,7 @@ Check out the official LazyVim documentation:
 
 ```powershell
 irm https://raw.githubusercontent.com/pfpduke/nvim_config/main/nvim_setup.ps1 | iex
+```
 
 - [Neovim](https://neovim.io)
 - Git
