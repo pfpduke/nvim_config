@@ -18,11 +18,12 @@ irm https://raw.githubusercontent.com/pfpduke/nvim_config/main/nvim_setup.ps1 | 
 - Git
 - PowerShell 7+
 - Lua (DEVCOM.Lua)
-- Lua Language Server (LSP)
-- Zig (optional for Zig devs)
+- Zig (used by nvim-treesitter) needed to compile grammar parsers
+- fd (for directory search in Telescope )
 - ripgrep & fd (for fast search in Telescope)
 - JetBrainsMonoNerdFont (for icons)
 - Windows Terminal (optional but recommended)
+- PowerShell (optional but recommended, gets latest version)
 
 ## 🚀 Setup Instructions
 
