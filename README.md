@@ -29,12 +29,12 @@ irm https://raw.githubusercontent.com/pfpduke/nvim_config/main/nvim_setup.ps1 | 
 2. Clone this repo.
 ```powershell
 git clone git@github.com:pfpduke/nvim_config.git "$env:LOCALAPPDATA\nvim"
-```
+
 3. Open **PowerShell** as Administrator.
 4. Run the setup script if you haven't already:
 ```powershell
 .\nvim_setup.ps1
-```
+
 4. Add JetBrainsMonoNerdFont to windows terminal
 
 
