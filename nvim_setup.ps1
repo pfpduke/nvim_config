@@ -1,6 +1,7 @@
 # nvim setup
 
 $tools = @{
+    "git"                = "git.git"
     "Neovim"             = "Neovim.Neovim"
     "ripgrep"            = "BurntSushi.ripgrep.GNU"
     "fd"                 = "sharkdp.fd"
