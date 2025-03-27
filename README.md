@@ -27,11 +27,13 @@ irm https://raw.githubusercontent.com/pfpduke/nvim_config/main/nvim_setup.ps1 | 
 
 1. Backup any exsisting nvim config
 2. Clone this repo.
+
 ```powershell
 git clone git@github.com:pfpduke/nvim_config.git "$env:LOCALAPPDATA\nvim"
 
 3. Open **PowerShell** as Administrator.
 4. Run the setup script if you haven't already:
+
 ```powershell
 .\nvim_setup.ps1
 
