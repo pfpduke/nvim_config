@@ -25,5 +25,6 @@ map("n", "<leader>fd", function()                                               
       prompt_title = "Find Directories",
     })
   end, { desc = "Find Directories" })
-  
 
+--toggleterm
+map("n", "<leader>t", "<cmd>ToggleTerm<CR>", { desc = "Toggle Terminal", noremap = true, silent = true }) --toggle terminal
