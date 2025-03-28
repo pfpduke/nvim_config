@@ -10,6 +10,10 @@ map("n", "<leader>x", ":wq<CR>", opts)        -- Save and quit
 map("n", "<leader>z", ":q!<CR>", opts)        -- Force quit
 
 
+map("n", "<leader>ww", "<C-w>w", { desc = "Switch windows", noremap = true, silent = true }) -- Window navigation
+
+
+
 -- ** PLUGIN MAPPINGS**
 
 
